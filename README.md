@@ -4,13 +4,13 @@ A Flutter application with real-time video calling capabilities using Agora SDK,
 
 ## Features
 
-### ✅ Authentication & Login
+### Authentication & Login
 - Simple login screen with email and password validation
 - Mock authentication with hardcoded credentials
 - Form validation for empty fields and email format
 - Persistent login state
 
-### ✅ Video Calling
+### Video Calling
 - One-to-one video calling using Agora SDK
 - Join meetings using channel names
 - Local and remote video streams
@@ -19,21 +19,21 @@ A Flutter application with real-time video calling capabilities using Agora SDK,
 - Screen sharing capability
 - Real-time call controls
 
-### ✅ User Management
+### User Management
 - Fetch users from ReqRes API
 - Display users in a scrollable list with avatars
 - Offline caching with local storage
 - Pull-to-refresh functionality
 - User details modal
 
-### ✅ App Lifecycle & Store Readiness
+### App Lifecycle & Store Readiness
 - Splash screen with app branding
 - App icons and proper naming
 - Camera and microphone permissions
 - Android and iOS configuration
 - Error handling and loading states
 
-### ✅ State Management
+### State Management
 - Provider pattern for state management
 - Separate providers for authentication, users, and video calls
 - Reactive UI updates
@@ -70,7 +70,7 @@ flutter pub get
 
 ### 3. Agora SDK Configuration
 
-The app is pre-configured with a test Agora App ID: `e9ee7a386a7249ac869329a99eaebc35`
+The app is pre-configured with a test Agora App ID: `e9ee********************bc35`
 
 For production use:
 1. Create an account at [Agora.io](https://www.agora.io/)
@@ -227,29 +227,3 @@ Enable debug logging by setting:
 // In agora_service.dart
 print('Debug: $message');
 ```
-
-## Future Enhancements
-
-- [ ] Push notifications for incoming calls
-- [ ] Group video calling
-- [ ] Call history
-- [ ] User profiles
-- [ ] Chat functionality
-- [ ] Call recording
-- [ ] External camera support
-
-## License
-
-This project is for educational purposes. Please ensure you have proper licenses for production use.
-
-## Support
-
-For issues and questions:
-1. Check the troubleshooting section
-2. Review Agora SDK documentation
-3. Check Flutter documentation
-4. Create an issue in the repository
-
-## Version History
-
-- **v1.0.0** - Initial release with basic video calling and user management
